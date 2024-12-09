@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+    <!-- ========== CSS BOOTSTRAP ========== -->
+    <link rel="stylesheet" href="./sign In/css/bootstrap.min.css" />
+    <!-- ========== CSS BOOTSTRAP ========== -->
+
+    <!-- ========== MAIN CSS FOR STYLING ========== -->
+    <link rel="stylesheet" href="./sign In/css/login.css" />
+    <!-- ========== MAIN CSS FOR STYLING ========== -->
+  </head>
+  <body>
+  
+    <form id="loginForm" class="login-form">
+        <div class="container mx-auto my-5 text-center">
+            <div class="group shadow-lg mx-auto w-75 p-5">
+                <h1 class="text-info mb-4">Smart Login System</h1>
+
+                <input class="form-control mb-4" type="email" name="useremail" id="loginEmailInput" placeholder="Enter Your Email">
+                <input class="form-control mb-4" type="password" name="userpassword" id="loginPasswordInput" placeholder="Ex: Password123@">
+
+                <div class="alert alert-danger d-none" id="loginAlert">InCorrect Email Or Password</div>
+                <div class="alert alert-success d-none" id="loginSuccessAlert">Success You 're Logged In</div>
+
+                <button class="btn btn-outline-info w-100">Sign In</button>
+
+                <p class="text-white mt-3">Don't have an account? <a href="./index.html">Sign Up</a></p>
+            </div>
+        </div>
+    </form>
+
+    <!-- ========== JS BOOTSTRAP ========== -->
+    <script src="./sign In/js/bootstrap.bundle.min.js"></script>
+    <!-- ========== JS BOOTSTRAP ========== -->
+
+    <!-- ========== MAIN JS ========== -->
+    <script src="./sign In/js/login.js"></script>
+    <!-- ========== MAIN JS ========== -->
+  </body>
+</html>
